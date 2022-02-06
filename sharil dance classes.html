@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Classes</title>
+</head>
+<style>
+    body {
+        background: url('bg2.jpeg');
+        color: white;
+        font-family: cursive;
+        margin: 0px;
+        padding: 0px;
+        /* background-repeat: no-repeat; */
+
+    }
+
+    .container {
+        display: flex;
+        /* border:2px solid red; */
+        /* height: 100vh; */
+        /* width: 100%; */
+        justify-content: space-between;
+
+
+    }
+
+    .box {
+        /* border: 2px solid blue; */
+        height: 100px;
+        width: 100px;
+
+
+
+    }
+
+    #box-1 {
+        height: 150px;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    #box-1 img {
+        width: 80px;
+        height: 80px;
+        margin: 20px 20px;
+        margin-bottom: 10px;
+
+    }
+
+    #box-2 {
+        height:100px;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin: 10px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover {
+        color: purple;
+
+
+    }
+
+    .btn:hover {
+        color: cadetblue;
+
+    }
+
+    .btn {
+        display: inline;
+        border-radius: 10px;
+        width: 80px;
+        height: 40px;
+        color: black;
+        background-color: lavender;
+        cursor:grabbing;
+
+    }
+
+    #box-3 {
+        width: 200px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .form {
+        /* position: absolute; */
+        /* left: 450px;
+        margin:auto; */
+        bottom: 100px;
+        text-align: center;
+        /* top:400px; */
+
+
+    }
+
+    .form h1 {
+        color:rgb(235,442,221) ;
+    }
+    .form-group{
+        margin:auto;
+        text-align: center;
+
+    }
+    .btn1{
+        border-radius:8px;
+
+    }
+    .btn1:hover{
+        color:magenta;
+        background-color: palegoldenrod;
+        cursor:grab;
+
+    }
+   .form-group input{
+       border-radius:5px;
+       border:5px bold black;
+       margin:5px;
+       background-color:gainsboro;
+
+    }
+    /* header::before{
+        background:url(bg.jpg);
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%
+        z-index:-1;
+        opacity: 0.5;
+
+    } */
+</style>
+
+<body>
+    <header> 
+        <div class="container">
+            
+            <div class="box" id="box-1">
+                
+                <img src="logo.png" alt="">
+                Sharil Dance Classes
+                
+                
+                
+            </div>
+            <div class="box" id="box-2">
+                <div class="mid">
+                    <ul class="navbar">
+                        <li><a href="https://google.com" class="active">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="#">Types We Teach</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+            <div class="box" id="box-3">
+                <button class="btn">
+                    call us
+                </button>
+                <button class="btn">
+                    contact us
+                </button>
+            </div>
+        </div>
+    
+    </header>
+    <div class="form">
+        <h1>Join the best Dance Classes of Delhi now</h1>
+        <form class="roms" action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn1">Submit</button>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
